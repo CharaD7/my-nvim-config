@@ -67,6 +67,8 @@ Plug 'ThePrimeagen/git-worktree.nvim'
 " Rainbow parentheses
 Plug 'oblitum/rainbow'
 
+" Vim colorscheme-pack
+Plug 'rafi/awesome-vim-colorschemes'
 
 
 " telescope requirements...
