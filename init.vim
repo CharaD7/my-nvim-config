@@ -555,6 +555,12 @@ augroup THE_PRIMEAGEN
 augroup END
 
 
+" Source my nvim always when it's run with a command
+map <leader>nvim :tabe /root/.config/nvim/init.vim<cr>
+autocmd bufwritepost .init.vim source $MYNVIM
+
+
+
 nmap < [
 nmap > ]
 omap < [
